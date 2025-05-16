@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+header {
+    background: #0050b3;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+header .logo {
+    max-width: 150px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.75em 1.5em;
+    background: #00b386;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
+}
+blockquote {
+    background: #e0f7fa;
+    border-left: 5px solid #00acc1;
+    padding: 1em;
+    margin: 1em 0;
+}
+form {
+    display: grid;
+    gap: 1em;
+    max-width: 500px;
+}
+form input, form button {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: #0050b3;
+    color: white;
+    border: none;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+}
